@@ -4,7 +4,13 @@ A clean, real-time system resource monitor for the terminal — built with Pytho
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey?style=for-the-badge)
+# sysmon-cli 🖥️
+
+A clean, real-time system resource monitor for the terminal — built with Python.
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey?style=for-the-badge)
 
 ---
 
@@ -26,7 +32,13 @@ A clean, real-time system resource monitor for the terminal — built with Pytho
 git clone https://github.com/AmoiiKane/sysmon-cli.git
 cd sysmon-cli
 python -m venv venv
+
+# Linux / macOS
 source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
